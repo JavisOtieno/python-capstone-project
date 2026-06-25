@@ -113,6 +113,7 @@ def main():
             f.write(f"{block_hash}\n")
 
         print("Successfully wrote out.txt")
+        #test workflow run
 
     except Exception as e:
         print("Error occurred:", e)
